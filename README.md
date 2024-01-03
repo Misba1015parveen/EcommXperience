@@ -19,9 +19,9 @@ Bootstrap: Utilizing Bootstrap framework for responsive design components.
 
 How to Use:-
 
-# Clone this repository to your local machine.
-# Open index.html in your preferred web browser.
-# Explore the website, browse products, and simulate the checkout process.
+Clone this repository to your local machine.
+Open index.html in your preferred web browser. 
+Explore the website, browse products, and simulate the checkout process.
 
 Acknowledgments:
 
