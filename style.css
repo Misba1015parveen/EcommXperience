@@ -1,0 +1,304 @@
+/* Add your custom CSS styles here */
+
+/* Navbar Styling */
+/* style.css */
+
+/* Set a background color for the entire body */
+body {
+    background-color: #f5f5f5; /* Replace with your desired background color */
+}
+
+/* Optionally, you can style specific sections or elements with different background colors */
+
+/* Header menu background color */
+.header_menu {
+    background-color: #918585; }
+
+/* Navbar background color */
+.navbar {
+    background-color: #c2b6b6; /* Background color for the navbar */
+    /* You can add more specific styling for the navbar here */
+}
+
+/* Search button background color */
+.search a {
+    background-color: #378be4; /* Example background color for the search button */
+    color: #fff; /* Text color for the search button */
+}
+
+/* Cart button background color */
+.cart a {
+    background-color: #28a745; /* Example background color for the cart button */
+    color: #fff; /* Text color for the cart button */
+}
+
+/* Styling for the badge in the cart button */
+.cart .badge {
+    background-color: #dc3545; /* Example background color for the badge */
+}
+
+/* Rest of your CSS styles... */
+
+/* Product Card Styling */
+.single_product {
+    border: 5px double #b92905; /* Add border around product cards */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    background-color: #b0d6d0;
+    color: #a73508;
+    transition: transform 0.3s ease-in-out; /* Add smooth hover effect */
+    /* Add more styling for product cards */
+}
+
+.single_product:hover {
+    transform: scale(1.05); /* Scale up the product card on hover */
+    box-shadow: rgb(83, 165, 192); /* Add a subtle shadow on hover */
+}
+
+/*featues styling */
+
+/* Add this to your styles.css or in a <style> tag within your HTML */
+
+/* Styling for the Feature Section */
+.feature {
+    background-color: #c5cbcfd8; /* Change the background color as desired */
+    padding: 60px 0; /* Adjust padding top and bottom */
+}
+
+.feature .section_title h1 {
+    color: #333; /* Title color */
+}
+
+/* Styling for individual feature boxes */
+.feature .col-md-4 {
+    margin-bottom: 30px; /* Spacing between feature boxes */
+}
+
+.feature .col-md-4 .shadow {
+    background-color: #9fdcf8; /* Feature box background color */
+    border-radius: 8px; /* Rounded corners for boxes */
+    padding: 20px; /* Adjust inner padding */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add transition */
+}
+
+.feature .col-md-4 .shadow:hover {
+    transform: translateY(-5px); /* Move box slightly up on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+.feature .col-md-4 .fa-3x {
+    color: #ff8c00; /* Icon color */
+}
+
+.feature .col-md-4 h3 {
+    color: #2407a5; /* Heading color */
+    margin-bottom: 15px; /* Spacing below heading */
+}
+
+/* Text color and styling for feature descriptions */
+.feature .col-md-4 div:not(.mb-4) {
+    color: #010d14; /* Description text color */
+}
+
+
+/* Footer Styling */
+.footer_section {
+    background-color: #b0d6d0; /* Change footer background color */
+    color: #0e0a0a; /* Adjust text color */
+    padding: 40px 0; /* Adjust padding */
+}
+
+/* Add more styles for footer links, titles, etc. */
+
+/* Back to Top Button Styling */
+.backtop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+
+/* Styling for the contact form */
+
+.contact {
+    background-color: #f1e7e7;
+    /* Change the background color as needed */
+  }
+  
+  .contact h1 {
+    color: #333;
+    /* Adjust the title color */
+  }
+  
+  .contact .border {
+    background-color: #fff;
+    /* Set the background color for form containers */
+  }
+  
+  .contact form {
+    background-color: #91e2e2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact form label {
+    font-weight: bold;
+  }
+  
+  .contact form input[type="text"],
+  .contact form input[type="email"],
+  .contact form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #35e762;
+  }
+  
+  .contact form input[type="text"]:focus,
+  .contact form input[type="email"]:focus,
+  .contact form textarea:focus {
+    outline: none;
+    border-color: #3498db;
+    /* Change focus color as needed */
+  }
+  
+  .contact form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #239c0a;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact form button[type="submit"]:hover {
+    background-color: #07660f;
+    /* Change hover color as needed */
+  }
+  
+  .contact form button[type="submit"]:focus {
+    outline: none;
+  }
+  
+
+  /*Checkout      */
+
+
+  /* Checkout Page Styles */
+
+/* Background Color and Padding */
+.Checkout {
+  background-color: #dde7f1;
+  padding: 60px 0;
+}
+
+/* Card Styles */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #89e8f5;
+}
+
+/* Form Styles */
+.form-group label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+.custom-select {
+  border-radius: 5px;
+  border: 1px solid #8ec5fc;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #2962db;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #044e2c;
+}
+
+/* Order Summary Styles */
+.list-group-item {
+  border: none;
+  padding: 10px 20px;
+}
+
+.list-group-item:last-child {
+  border-top: 1px solid #a7c7e7;
+}
+
+/* Total Amount Styles */
+.list-group-item:last-child span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+  .col-lg-8 {
+    margin-bottom: 30px;
+  }
+}
+
+
+/* Order Summary Styles */
+
+/* Card Styles */
+.mb-3 {
+  margin-bottom: 1.5rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  
+}
+
+/* Header Styles */
+.pt-4 {
+  padding-top: 1rem;
+}
+
+/* Title Styles */
+.h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* List Styles */
+.list-group-item {
+  border: none;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.list-group-item:last-child {
+  border-bottom: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Total Amount Styles */
+.list-group-item:last-child span {
+  color: #0c0d0e;
+}
+
+/* Including VAT Styles */
+.list-group-item:last-child p {
+  color: #666;
+  font-size: 0.85rem;
+  margin-bottom: 0;
+}
